@@ -1,4 +1,4 @@
-var bitcore = require('bitcore-lib');
-bitcore.P2P = require('./lib');
+var feathercore = require('feathercore-lib');
+feathercore.P2P = require('./lib');
 
-module.exports = bitcore.P2P;
+module.exports = feathercore.P2P;
